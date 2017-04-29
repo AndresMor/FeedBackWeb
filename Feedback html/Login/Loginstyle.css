@@ -1,0 +1,23 @@
+header{
+	text-align: center;
+	display: block;
+	width:80%;
+}
+
+@media screen and (min-width: 1025px) {
+    body{
+        overflow: hidden;
+    }
+    header{
+    	margin-top:60px; 
+    }
+}
+
+*{
+	padding:0;
+	margin:0 auto;
+}
+div{
+    border-color: red;
+}
+/*Este css modifica el diseño de los elementos que no contengan clases del framework de google*/

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css"  media ="all" href="file:///C:/Users/Johnny/Desktop/Feedback%20html/Login/Loginstyle.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="file:///C:/Users/Johnny/Desktop/Feedback%20html/Login/material.min.css"><!--*-->
+<body>																															
+	<header>
+		   <img src="file:///C:/Users/Johnny/Desktop/Feedback%20html/Images/logo.jpg" alt="Universidad del Norte">
+		   <h2 class="mdl-typography--display-1">Feedback de Instituto de Idiomas</h2><!--Clase para tipografia MDL-->
+	</header>
+	<form>
+		 <div class="mdl-grid center-items"><!--Contenedor grid y clase para centrarlo-->
+              <div class="mdl-cell mdl-cell--4-col"><!--Contenedor en formato de celda de tamaño 4-->
+                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"><!--Clases para los texfield y el label flotante-->
+                    <label for="user" class="mdl-textfield__label ">Nombre de Usuario:</label>
+                    <input type="text" class="mdl-textfield__input" id="user" name="user" required autofocus />
+                 </div>
+                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                 	<label for="pass" class="mdl-textfield__label " id="passlabel" name="passlabel">Contraseña:</label>
+                    <input type="password" class="mdl-textfield__input" id="pass" name="pass" required/>
+                 </div>
+               </div>
+         </div>		
+         <button type="submit" name="inicarsesionbt" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">Iniciar Sesion</button>
+	</form>
+	<script type="text/javascript" src="file:///C:/Users/Johnny/Desktop/Feedback%20html/Scripts/material.min.js"></script><!--*-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script><!--*-->
+	<!--Los que contengan un * de comentario son elementos que pertenencen a la Libreria Google Material Design Lite-->
+</body>
+</html>

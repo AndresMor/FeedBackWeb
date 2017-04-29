@@ -1,0 +1,13 @@
+*{
+	padding: 0;
+	margin:0;
+	border:0;
+}
+
+.labelsform{
+	font-size: 15px;
+	font-weight: bold;
+}
+textarea{
+	height: 7em;
+}

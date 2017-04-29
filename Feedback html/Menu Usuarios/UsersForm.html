@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="UTF-8">
+	  <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	  <link rel="stylesheet" type="text/css" href="file:///C:/Users/Johnny/Desktop/Feedback%20html/Menu%20Usuarios/UsersFormstyle.css">
+	  <link rel="stylesheet" type="text/css" href="file:///C:/Users/Johnny/Desktop/Feedback%20html/Menu%20Usuarios/materialUF.min.css">
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"><!--Espacios con layout y header fix-->
+      <header class="mdl-layout__header mdl-color--amber-900"><!--Declaro el layout header (Encabezado,barra azulita)-->
+        <div class="mdl-layout__header-row"><!--Declaro una fila de encabezado para poder poner span-->
+        <div class="mdl-layout-spacer"></div><!--Declaro el spacer para poner el span a la derecha-->
+          <span class="mdl-layout__title">Instituto de Idiomas - Formulario Feedback</span>
+        </div>
+      </header>
+        <div class="mdl-layout__drawer"><!--Declaro el layout drawer (El desplegable/cajon)-->
+          <span class="mdl-layout__title">Opciones</span>
+   		      <nav class="mdl-navigation"><!--El menu como tal-->
+   			    <a class="mdl-navigation__link" href="">Regresar</a>
+            <a class="mdl-navigation__link" id="SubCI" href="#">Cambiar Idioma</button></a>
+            <a class="mdl-navigation__link" href="">Cerrar Sesion</a>
+   		    </nav>
+   	    </div>
+    </div>
+    <!--Submenu Cambio de Idioma-->
+    <ul class="mdl-menu mdl-js-menu mdl-menu-left" for="SubCI">
+       <li class="mdl-menu__item">Español</li>
+       <li class="mdl-menu__item">English</li>
+    </ul>
+    <!--Formulario-->
+    <div class="mdl-layout mdl-js-layout">
+        <div class="mdl-card mdl-shadow--2dp through mdl-shadow--16dp">
+          <div class="mdl-card__title mdl-color--light-green-300 demo-palette">
+              <h1 class="mdl-card__title-text">Formulario</h1>
+          </div>
+          <div class="mdl-card__supporting-text">
+              <label class="labelsform">Idioma cursado actualmente:</label>
+              <select name="IdiomaS">
+                 <option value="prueba">Ingles</option>
+              </select><br><br> 
+              <label class="labelsform">Nivel cursado actualmente:</label>
+              <select name="NivelIdiomaS">
+                 <option value="prueba2">1</option>
+              </select><br><br> 
+              <label class="labelsform">Opinion Anonima:</label>
+              <select name="AnomS">
+                 <option value="AnomOS">Si</option>
+                 <option value="AnomON">No</option>
+              </select><br><br> 
+              <label class="labelsform">Area:</label>
+              <select name="AreaS">
+                 <option value="Nose">Especificar</option>
+              </select><br><br> 
+              <label class="labelsform">Danos tu opinion!</label>
+              <div class="mdl-textfield mdl-js-textfield">
+                  <textarea name="TextareaFB" class="mdl-textfield__input" required></textarea>
+              </div>
+              <button type="submit" name="enviarformbt" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"><i class="material-icons">send</i> Enviar</button></button>
+          </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="file:///C:/Users/Johnny/Desktop/Feedback%20html/Scripts/material.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  </body>
+</html>
